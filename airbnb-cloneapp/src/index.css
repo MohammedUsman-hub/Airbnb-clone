@@ -19,17 +19,31 @@ nav{
   max-width: 100px;
 }
 
-#grid-img{
-  max-width: 40%;
-  height: 31pc;
-  align-self: center;
-}
+
+
+
 
 section{
   padding: 20px;
 }
 
+#grid-img{
+  max-width: 34%;
+  height: 31pc;
+  align-self: center;
+}
+
 .hero{
   display: flex;
   flex-direction: column;
+}
+
+.hero-h2{
+  margin-bottom: 16px;
+  font-size: 2.5pc;
+}
+
+.hero-p{
+  margin-top: 0;
+  font-size: 1.2pc;
 }
