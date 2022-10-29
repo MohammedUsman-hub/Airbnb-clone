@@ -48,15 +48,25 @@ section{
   font-size: 1.2pc;
 }
 
-.mj{
-  width: 12%;
-  position: relative;
-  left: 30px;
-  bottom: 50px;
+
+.gray{
+  color:grey;
 }
-.star{
-  width: 1.5%;
-  position: relative;
-  right: 190px;
-  bottom: 15px;
+.card{
+  width: 157px;
+  font-size: 12px;
+}
+
+.card--image{
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-stats{
+  display: flex;
+  align-items: center;
+}
+
+.card--star{
+  height: 14px;
 }

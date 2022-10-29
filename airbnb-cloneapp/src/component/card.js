@@ -6,12 +6,17 @@ import "../index.css"
 export default class Card extends Component{
     render(){
         return(
-            <section>
-                  <img class="mj" src={Mj}></img>  
-                  <img class="star" src={Star}></img>
-                  <p>5.0 6 reviews -USA</p>
-                  <p>Life lessons with Michael Jordan</p>
-            </section>
+            <div className='card'>
+                <img class="card--image" src={Mj}></img>  
+                  <div className='card-stats'>
+                    <img class="card--star" src={Star}></img>
+                    <span><b>5.0</b></span>
+                    <span className='gray'>(6)</span>
+                    <span className='gray'>-USA</span>
+                  </div>
+                <p>Life lessons with Michael Jordan</p>
+                <p ><b>Fom $350</b> / person</p>
+            </div>
         )
     }
 }
