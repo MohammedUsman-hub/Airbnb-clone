@@ -47,3 +47,16 @@ section{
   margin-top: 0;
   font-size: 1.2pc;
 }
+
+.mj{
+  width: 12%;
+  position: relative;
+  left: 30px;
+  bottom: 50px;
+}
+.star{
+  width: 1.5%;
+  position: relative;
+  right: 190px;
+  bottom: 15px;
+}
