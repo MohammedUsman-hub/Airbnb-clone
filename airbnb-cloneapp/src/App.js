@@ -20,7 +20,7 @@ export default function App(){
         mail="cookie@gmail.com"
       />
       <Contact
-        img="./images/cat3.jpg"
+        img="./images/cat2.jpg"
         name="Kelly"
         phone="07627865933"
         mail="Kelly@gmail.com"

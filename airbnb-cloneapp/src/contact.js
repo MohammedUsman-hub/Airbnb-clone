@@ -2,7 +2,7 @@ import React from 'react'
 import "./index.css"
 
 import Phone from "./images/phone.png"
-import Cat from "./images/cat.jpg"
+
 import Mail from "./images/mail.jpg"
 
 
@@ -11,6 +11,7 @@ export default function Contact(props){
             <div className='contacts'>
 
                 <div className='contact-card'>
+                    
                     <img src={props.img}/>
                     <h3>{props.name}</h3>
 
