@@ -4,6 +4,11 @@ import Hero from "./component/hero"
 import Card from "./component/card"
 import Contact from "./contact"
 
+import Cat1 from "./images/cat.jpg"
+import Cat2 from "./images/cat2.jpg"
+import Cat3 from "./images/cat3.jpg"
+import Cat4 from "./images/cat4.jpg"
+
 
 export default function App(){
   return(
@@ -14,25 +19,25 @@ export default function App(){
 
 
       <Contact
-        img="./images/cat.jpg"
+        img={Cat1}
         name="Cookie"
         phone="07625188827"
         mail="cookie@gmail.com"
       />
       <Contact
-        img="./images/cat2.jpg"
+        img={Cat2}
         name="Kelly"
         phone="07627865933"
         mail="Kelly@gmail.com"
       />
       <Contact
-        img="./images/cat3.jpg"
+        img={Cat3}
         name="Billy"
         phone="07002749992"
         mail="billy@gmail.com"
       />
       <Contact
-        img="./images/cat4.jpg"
+        img={Cat4}
         name="Krissy"
         phone="07142356744"
         mail="Krissy@gmail.com"

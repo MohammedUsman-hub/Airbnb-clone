@@ -2,7 +2,6 @@ import React from 'react'
 import "./index.css"
 
 import Phone from "./images/phone.png"
-
 import Mail from "./images/mail.jpg"
 
 
