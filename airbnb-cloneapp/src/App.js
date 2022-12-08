@@ -9,13 +9,28 @@ import Cat2 from "./images/cat2.jpg"
 import Cat3 from "./images/cat3.jpg"
 import Cat4 from "./images/cat4.jpg"
 
+import data from "./data.js"
+
 
 export default function App(){
+  const DataJs = data.map(item => {
+    return(
+      <Card
+        img={item.coverImg}
+        rating={item.stats.rating}
+        reviewCount={item.stats.reviewCount}
+        location={item.location}
+        title={item.title}
+        price={item.price}
+
+      />
+    )
+  })
   return(
     <div>
       <Nav/>
       <Hero/>
-      <Card/>
+      {DataJs}
 
 
       <Contact
