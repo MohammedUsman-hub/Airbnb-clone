@@ -6,7 +6,7 @@ import "../index.css"
 export default function Card(props) {
         return(
             <div className='card'>
-                <img class="card--image" src={'../images/${props.img}'}></img>  
+                <img class="card--image" src={`../images/${props.img}`}></img>  
                   <div className='card-stats'>
                     <img class="card--star" src={Star}></img>
                     <span><b>{props.rating}</b></span>

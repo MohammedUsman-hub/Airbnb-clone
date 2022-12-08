@@ -2,7 +2,7 @@ import React from 'react'
 import "./index.css"
 
 import Phone from "./images/phone.png"
-import Mail from "./images/mail.jpg"
+import Mail from ".//images/mail.jpg"
 
 
 export default function Contact(props){
@@ -23,6 +23,7 @@ export default function Contact(props){
                         <img src={Mail}></img>
                         <p>{props.mail}</p>
                     </div>
+
 
                 </div>
                 
