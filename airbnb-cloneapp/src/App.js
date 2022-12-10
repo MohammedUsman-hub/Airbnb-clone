@@ -15,6 +15,7 @@ export default function App(){
   const DataJs = data.map(item => {
     return(
       <Card
+        key={item.id}
         img={item.img}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
@@ -28,10 +29,13 @@ export default function App(){
     <div>
       <Nav/>
       <Hero/>
-      {DataJs}
+      
+      <section className="cards-list">
+        {DataJs}
+      </section>
 
 
-      <Contact
+  {/*    <Contact
         img="/images/cat.jpg"
         name="Cookie"
         phone="07625188827"
@@ -54,7 +58,7 @@ export default function App(){
         name="Krissy"
         phone="07142356744"
         mail="Krissy@gmail.com"
-      />
+      /> */}
      
       
     </div>
