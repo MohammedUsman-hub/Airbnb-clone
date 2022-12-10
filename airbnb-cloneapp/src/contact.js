@@ -1,8 +1,6 @@
 import React from 'react'
 import "./index.css"
 
-import Phone from "./images/phone.png"
-import Mail from ".//images/mail.jpg"
 
 
 export default function Contact(props){
@@ -15,12 +13,12 @@ export default function Contact(props){
                     <h3>{props.name}</h3>
 
                     <div className='info-group'>
-                        <img src={Phone}></img>
+                        <img src="images/phone.png"></img>
                         <p>{props.phone}</p>
                     </div>
 
                     <div className='info-group'>
-                        <img src={Mail}></img>
+                        <img src="images/mail.jpg"></img>
                         <p>{props.mail}</p>
                     </div>
 
