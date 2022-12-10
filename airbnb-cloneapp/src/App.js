@@ -4,6 +4,7 @@ import Hero from "./component/hero"
 import Card from "./component/card"
 import Contact from "./contact"
 
+
 import Cat1 from "./images/cat.jpg"
 import Cat2 from "./images/cat2.jpg"
 import Cat3 from "./images/cat3.jpg"
@@ -12,11 +13,12 @@ import Cat4 from "./images/cat4.jpg"
 import data from "./data.js"
 
 
+
 export default function App(){
   const DataJs = data.map(item => {
     return(
       <Card
-        img={item.coverImg}
+        img={item.img}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
         location={item.location}

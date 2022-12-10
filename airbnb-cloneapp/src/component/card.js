@@ -1,5 +1,4 @@
 import React from 'react'
-import Mj from "../images/mj.jpg"
 import Star from "../images/star.png"
 import "../index.css"
 
