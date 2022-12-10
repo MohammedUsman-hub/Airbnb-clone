@@ -6,7 +6,7 @@ body{
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-
+/* Nav bar in navbar.js */
 nav{
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   padding: 20px 26px;
@@ -22,7 +22,7 @@ nav{
 
 
 
-
+/* Grid image in Hero.js */
 section{
   padding: 20px;
 }
@@ -55,8 +55,8 @@ section{
 
 
 
-
-.cards-list{
+/* cards services */
+.cards-list{ /* add to cardstox code*/
   display: flex;
   flex-wrap: nowrap;
   gap: 50px;
@@ -65,9 +65,9 @@ section{
 .card{
   width: 157px;
   font-size: 12px;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
+  flex: 0 0 auto;/* add to cardstox code*/
+  display: flex;/* add to cardstox code*/
+  flex-direction: column;/* add to cardstox code*/
 }
 
 .card--image{
@@ -85,6 +85,7 @@ section{
 }
 
 
+/* used to practice props... */
 .contacts{
   display:flex;
   justify-content: center;

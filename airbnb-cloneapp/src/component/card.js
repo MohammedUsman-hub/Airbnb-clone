@@ -2,6 +2,7 @@ import React from 'react'
 import "../index.css"
 
 export default function Card(props) {
+  console.log(props.openSpots)
         return(
             <div className='card'>
                 <img class="card--image" src={`../images/${props.img}`}></img>  

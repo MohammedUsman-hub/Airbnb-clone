@@ -2,7 +2,7 @@ import React from "react"
 import Nav from './component/navbar'
 import Hero from "./component/hero"
 import Card from "./component/card"
-import Contact from "./contact"
+//import Contact from "./contact"
 
 
 
@@ -22,6 +22,7 @@ export default function App(){
         location={item.location}
         title={item.title}
         price={item.price}
+        openSports={item.openSpots}
       />
     )
   })
