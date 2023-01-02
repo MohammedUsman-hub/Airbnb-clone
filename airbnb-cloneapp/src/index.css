@@ -18,7 +18,42 @@ nav{
 #logo{
   max-width: 100px;
 }
-
+#earth-icon{
+  position: relative;
+  left: 89%;
+  width: 19px;
+  height: 20px;
+  top: 4.5px;
+  display: flex;
+  align-items: center;
+}
+#earth-icon:hover{
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+#icon-img{
+  position: relative;
+  left: 90%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+#icon-img:hover{
+  box-shadow: 3px 2px 10px 1px #a3a3a3;
+  cursor: pointer;
+  
+}
+#nav-txt{
+  font-size: 13px;
+  position: relative;
+  left: 79%;
+  bottom: 22px;
+}
+#nav-txt:hover{
+  color: #707070;
+  cursor: pointer;
+}
 
 
 

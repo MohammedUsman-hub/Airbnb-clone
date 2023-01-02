@@ -24,7 +24,6 @@ export default function App(){
     <div>
       <Nav/>
       <Hero/>
-      
       <section className="cards-list">
         {DataJs}
       </section>
