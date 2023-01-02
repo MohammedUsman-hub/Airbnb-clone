@@ -102,7 +102,22 @@ export default [
         },
         location: "Online",
         openSpots: 1,
-    }
+    },
+    {
+        id: 9,
+        title: "Yoga classes with professional yoga instructor.",
+        description: "yoga class",
+        price: 12,
+        img: "yoga.jpg",
+        stats: {
+            rating: 5,
+            reviewCount: 23
+        },
+        location: "Online",
+        openSpots: 1,
+    },
+    
+    
   
     
 ]
