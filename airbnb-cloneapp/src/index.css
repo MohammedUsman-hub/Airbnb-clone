@@ -8,7 +8,7 @@ body{
 }
 /* Nav bar in navbar.js */
 nav{
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  
   padding: 20px 26px;
   height: 70px;
   display: flex;
