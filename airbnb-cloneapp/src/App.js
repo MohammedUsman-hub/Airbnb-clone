@@ -5,8 +5,6 @@ import Card from "./component/card"
 //import Contact from "./contact"
 
 
-
-
 import data from "./data.js"
 
 
