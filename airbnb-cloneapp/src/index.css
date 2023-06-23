@@ -92,10 +92,10 @@ section{
 
 /* cards services */
 .cards-list{ /* add to cardstox code*/
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 .card{
   width: 157px;
